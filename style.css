@@ -1,0 +1,158 @@
+style.css
+body{
+  background: rgb(245,245,245);
+  color: green;
+  font-size: 25px;
+  font-family: Economica;
+}
+h1{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:#474F85;
+  font-weight: bold;
+  font-size: 25px;
+}
+h2 {
+  font-family: Economica;
+  color: #51E3D4;
+  font-weight: bold;
+  font-size: 20px;
+}
+a {
+  color:#474F85;
+  font-size: 20px;
+  font-style: none;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("images/imagebanner.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: white;
+}
+#banner h1 {
+  font-size: 50px;
+}
+#banner p {
+  margin-bottom: 40px;
+  opacity: 1;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #D194E9;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+#explications{
+  background-color:rgba(100, 100, 100, 0.05);
+ 
+
+  text-align: center;
+
+
+  border-color: #CCCCCC;
+
+  padding: 35px 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  color: black;
+ margin-bottom: 25px;
+  
+
+
+}
+
+#explications p{
+	max-width: 600px;
+  margin: 0 auto;
+
+}
+
+
+
+#footer{
+  padding: 30px;
+  color: black;
+}
+
+.card-white {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  color: white;
+  background-size: cover;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+  height: 300px;
+}
+.card-white h2 {
+	margin-top: 100px;
+	width: 120px;
+	padding: 10px 5px;
+	background-color: white;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .2s;
+}
+.card-white h2:hover a {
+	color: purple;
+}
+.card-white h2:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.card-white h2 img {
+	margin-right: 8px;
+}
+
+.card-white#security {
+	background-image: linear-gradient(rgba(40, 40, 40, 0.1), rgba(40, 40, 40, 0.1)), url('images/jambes_de_fille.jpg');
+}
+.card-white#people {
+	background-image: linear-gradient(rgba(40, 40, 40, 0.1), rgba(40, 40, 40, 0.1)), url('images/filles_contentes.jpg');
+}
+
+
+.card-image {
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+	border: #CCCCCC;
+  color: white;
+  background-color: #CCCCCC;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 5px 5px;
+}
+
+.btn-primary:hover {
+  background-color: #D194E9;
+  color: white;
+}
+
+.typeform-share {
+	border: #CCCCCC;
+  color: purple;
+  background-color: #CCCCCC;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 5px 5px;
+}
+
+.typeform-share:hover {
+  background-color: #D194E9;
+  color: white;
+}
